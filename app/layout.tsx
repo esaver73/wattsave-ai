@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "WattSave AI",
   description: "AI Powered Energy Optimization",
   verification: {
-    google: "Yoz5xc6NqnC6yKyaWELrjPWb3NqpFIPXM_kiCpKDJ-Q",
+    google: "4qaar-rDbvQyvQ3VDwbWs-mrwblm48xPTWF6J-6SdMs",
   },
 };
 
@@ -50,7 +50,9 @@ export default function RootLayout({
 
         <NavbarWrapper />
 
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">
+          {children}
+        </main>
 
         <Footer />
       </body>
