@@ -15,11 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "WattSave AI",
   description: "AI Powered Energy Optimization",
+  verification: {
+    google: "Yoz5xc6NqnC6yKyaWELrjPWb3NqpFIPXM_kiCpKDJ-Q",
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
